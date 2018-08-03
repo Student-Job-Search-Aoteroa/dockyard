@@ -33,7 +33,7 @@ The routes of interest are below:
     PUT    /boats/{id}
     PATCH  /boats/{id}
     DELETE /boats/{id}
-    
+
     GET    /workers
     GET    /workers/{id}
     POST   /workers
@@ -48,12 +48,14 @@ You'll be building a single page application (SPA) that connects to this server.
 1. A page that lists all boats (names and photos)
 2. Clicking a boat in above list will show a page having all available details about a specific boat, including the names of the workers who are working on that boat
 3. UI to do CRUD operations on the boat data set
-4. UI to assign / un-assign workers to boats - there is no need to build a CRUD UI for the workers data set. 
+4. UI to assign / un-assign workers to boats - there is no need to build a CRUD UI for the workers data set.
 
-You can use Vue, React or Angular for this task. You are required to use the following:
+For this task, you are required to use the following:
 
-1. Bootstrap 3 or 4 as a frontend framework
-2. Some sort of a task runner / bundler (e.g. grunt, webpack etc.)
+1. React for the frontend
+2. Redux for state management
+3. Bootstrap 4 or Material Design for layout and styling
+2. Some sort of a task runner / bundler (e.g. Webpack)
 
 ## Task 2 – Backend
 
@@ -72,7 +74,7 @@ Analyse the supplied schema and the provided sample data supplied in the SQL fil
 
 2.	Implement the GET route /api/boats/{id} which returns all available details about a specific boat, including the ids of all workers working on that boat.
 
-For doing this task, you can choose either Laravel or Symfony framework. Similarly, you can choose either Eloquent or Doctrine as an ORM. 
+For doing this task, use Express as the backend web application framework. You are also required to use Sequelize as the ORM.
 
 ## Submitting the project
 
