@@ -2,7 +2,7 @@
 
 ## What are we testing?
 
-We are mainly testing your skills in Javascript and PHP in a typical web development setting. What we will assess is the following:
+We are testing your skills in Javascript in a typical full-stack web development setting. What we will assess is the following:
 
 -	Setup a build and coding environment from ground up
 -	Create a complete piece of functionality in a web app
